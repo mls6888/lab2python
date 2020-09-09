@@ -6,7 +6,7 @@
 #  Breakout11
 def getLetterGrade(grade):
   return "A"
-if (grade >= 93.0) 
+  if grade >= 93.0: 
     return "A";
   elif grade >= 90.0: 
     return "A-" 
@@ -31,7 +31,7 @@ if (grade >= 93.0)
 def run():
 
     grade = float(input("Enter your CMPSC 131 grade: ")) 
-    print(f"Your letter grade for CMPSC is {getLetterGrade(letter)}.")
+    print(f"Your letter grade for CMPSC is {getLetterGrade(grade)}.")
     
 if __name__ == "__main__":
    run()
