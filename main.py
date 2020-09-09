@@ -5,7 +5,6 @@
 # Collaborator: Brian Chetle bjc5969@psu.edu
 #  Breakout11
 def getLetterGrade(grade):
-  return "A"
   if grade >= 93.0: 
     return "A";
   elif grade >= 90.0: 
