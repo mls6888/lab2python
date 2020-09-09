@@ -3,7 +3,8 @@
 # Collaborator: Marvin Jakobs mjk5388@psu.edu
 # Collaborator: Fletcher Henneman fdh5031@psu.edu 
 # Collaborator: Brian Chetle bjc5969@psu.edu
-#  Breakout11
+# Section: 11r
+# Breakout : 11
 def getLetterGrade(grade):
   if grade >= 93.0: 
     return "A";
