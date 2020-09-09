@@ -31,7 +31,7 @@ def getLetterGrade(grade):
 def run():
 
   grade = float(input("Enter your CMPSC 131 grade: ")) 
-  print(f"Your letter grade for CMPSC is {getLetterGrade(grade)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(grade)}.")
     
 if __name__ == "__main__":
    run()
