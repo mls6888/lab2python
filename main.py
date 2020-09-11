@@ -26,17 +26,17 @@ def getGradePoint(grade):
 
 def run():
   gradepoint1 = getGradePoint(input("Enter your course 1 letter grade: ")) 
-  print(f"Grade point for course 1 is:",gradepoint1)
   credit1 = input("Enter your course 1 credit: ")
   credit1 = int(credit1)
+  print(f"Grade point for course 1 is:",gradepoint1)
   gradepoint2 = getGradePoint(input("Enter your course 2 letter grade: "))
-  print(f"Grade point for course 2 is:",gradepoint2)
   credit2 = input("Enter your course 2 credit: ")
   credit2 = int(credit2)
+  print(f"Grade point for course 2 is:",gradepoint2)
   gradepoint3 = getGradePoint(input("Enter your course 3 letter grade: ")) 
-  print(f"Grade point for course 3 is:",gradepoint3)
   credit3 = input("Enter your course 3 credit: ")
   credit3 = int(credit3)
+  print(f"Grade point for course 2 is:",gradepoint2)
   GPA = (gradepoint1*credit1+gradepoint2*credit2+gradepoint3*credit3)/(credit1+credit2+credit3)
   print("Your GPA is:",GPA)
 
