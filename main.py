@@ -2,7 +2,7 @@
 # Section: 11r
 # Breakout : 11
 def getGradePoint(grade):
-  if grade == "A" or "a": 
+  if grade == "A": 
     return 4.0
   elif grade == "A-": 
     return 3.67 
