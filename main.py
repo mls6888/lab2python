@@ -1,12 +1,8 @@
 #Liam Sullivan mls6888@psu.edu
-# Collaborator: Andrew Ou ajo5499@psu.edu
-# Collaborator: Marvin Jakobs mjk5388@psu.edu
-# Collaborator: Fletcher Henneman fdh5031@psu.edu 
-# Collaborator: Brian Chetle bjc5969@psu.edu
 # Section: 11r
 # Breakout : 11
 def getGradePoint(grade):
-  if grade == "A": 
+  if grade == "A" or "a": 
     return 4.0
   elif grade == "A-": 
     return 3.67 
