@@ -39,7 +39,7 @@ def run():
   print(f"Grade point for course 3 is:",gradepoint3)
   GPA = (gradepoint1*credit1+gradepoint2*credit2+gradepoint3*credit3)/(credit1+credit2+credit3)
   print("Your GPA is:",GPA)
-  
+
 
   
   
