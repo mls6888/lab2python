@@ -23,7 +23,7 @@ def getGradePoint(grade):
   elif grade == "D": 
     return 1.0  
   else:  
-    return "F"
+    return 0.0
    
 
 
